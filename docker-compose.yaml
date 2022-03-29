@@ -1,0 +1,25 @@
+services:
+  appo:
+    build: .
+    ports:
+      - 80:80
+  appp:
+    build: .
+    ports:
+      - 80:80
+  appq:
+    build: .
+    ports:
+      - 80:80
+  appr:
+    build: .
+    ports:
+      - 80:80
+  apps:
+    build: .
+    ports:
+      - 80:80
+  appt:
+    build: .
+    ports:
+      - 80:80
